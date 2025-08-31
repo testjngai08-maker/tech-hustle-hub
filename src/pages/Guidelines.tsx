@@ -14,7 +14,7 @@ const Guidelines = () => {
               Back to Hackathon
             </Button>
           </Link>
-          <h1 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+          <h1 className="text-3xl font-bold text-primary">
             Community Guidelines
           </h1>
         </div>

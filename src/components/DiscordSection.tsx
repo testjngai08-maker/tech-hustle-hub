@@ -15,7 +15,7 @@ const DiscordSection = () => {
             </div>
             <h2 className="text-4xl font-bold mb-4">
               Join Our
-              <span className="block bg-gradient-secondary bg-clip-text text-transparent">
+              <span className="block text-secondary">
                 Discord Community
               </span>
             </h2>
@@ -25,9 +25,9 @@ const DiscordSection = () => {
           </div>
 
           {/* Main CTA Card */}
-          <Card className="bg-gradient-to-r from-accent/10 to-primary/10 border-accent/20 mb-8">
+          <Card className="bg-accent/10 border-accent/20 mb-8">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-4 shadow-glow">
+              <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4 shadow-glow">
                 <MessageCircle className="h-8 w-8 text-white" />
               </div>
               

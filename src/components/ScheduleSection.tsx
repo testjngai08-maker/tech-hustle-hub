@@ -43,7 +43,7 @@ const ScheduleSection = () => {
           </div>
           <h2 className="text-4xl font-bold mb-4">
             One Week of
-            <span className="block bg-gradient-secondary bg-clip-text text-transparent">
+            <span className="block text-secondary">
               Intensive Coding
             </span>
           </h2>
@@ -55,13 +55,13 @@ const ScheduleSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-secondary to-accent"></div>
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-primary"></div>
             
             <div className="space-y-8">
               {scheduleItems.map((item, index) => (
                 <div key={index} className="relative flex items-start gap-6">
                   {/* Timeline dot */}
-                  <div className={`relative z-10 w-16 h-16 rounded-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center shadow-glow`}>
+                  <div className={`relative z-10 w-16 h-16 rounded-full bg-primary flex items-center justify-center shadow-glow`}>
                     <Clock className="h-6 w-6 text-white" />
                   </div>
                   

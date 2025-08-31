@@ -48,7 +48,7 @@ const ThemesSection = () => {
           </div>
           <h2 className="text-4xl font-bold mb-4">
             Four Exciting
-            <span className="block bg-gradient-primary bg-clip-text text-transparent">
+            <span className="block text-primary">
               Challenge Themes
             </span>
           </h2>
@@ -98,9 +98,9 @@ const ThemesSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="bg-gradient-hero p-6 rounded-lg text-white max-w-2xl mx-auto">
+          <div className="bg-primary p-6 rounded-lg text-primary-foreground max-w-2xl mx-auto">
             <h3 className="text-xl font-bold mb-2">Ready to Start Building?</h3>
-            <p className="text-white/90">
+            <p className="text-primary-foreground/90">
               Detailed problem statements and starter resources will be provided upon registration. 
               Get ready to push the boundaries of what's possible!
             </p>

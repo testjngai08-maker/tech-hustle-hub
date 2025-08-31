@@ -50,11 +50,6 @@ All colors MUST be HSL.
     --hackathon-blue: 221 83% 53%;
     --hackathon-yellow: 54 91% 68%;
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--hackathon-orange)), hsl(var(--hackathon-yellow)));
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--hackathon-blue)), hsl(var(--hackathon-green)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--hackathon-orange)), hsl(var(--hackathon-blue)));
-    
     /* Shadows */
     --shadow-glow: 0 0 30px hsl(var(--hackathon-orange) / 0.3);
     --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.1);

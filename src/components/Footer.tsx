@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Code className="h-5 w-5 text-white" />
               </div>
               <h3 className="text-xl font-bold">Tech Hustler's</h3>

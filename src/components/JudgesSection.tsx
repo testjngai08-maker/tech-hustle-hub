@@ -40,7 +40,7 @@ const JudgesSection = () => {
           </div>
           <h2 className="text-4xl font-bold mb-4">
             Meet Our
-            <span className="block bg-gradient-secondary bg-clip-text text-transparent">
+            <span className="block text-secondary">
               Expert Judges
             </span>
           </h2>
@@ -57,7 +57,7 @@ const JudgesSection = () => {
             >
               <CardContent className="p-6 text-center">
                 {/* Avatar */}
-                <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-glow">
+                <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-xl mx-auto mb-4 shadow-glow">
                   {judge.avatar}
                 </div>
 
